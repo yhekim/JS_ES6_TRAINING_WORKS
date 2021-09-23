@@ -9,7 +9,9 @@ const urunler = [
 
 ]
 const urunOlusturucu = (urun) => `${urun.name} fiyatı ${urun.fiyat} liradır`;
+
 //yukarda yaptığımız kod sadeliğine Refactoring denir 
+
 console.log(urunler.map(urunOlusturucu));
 
 //Reactta jsx ifadeyle aşağıdaki gibi yazılır
