@@ -8,11 +8,11 @@
 //     { id: 4, name: "Kalemtraş", fiyat: 9 }
 // ]
 // const yazdir = urunler.find((urun) => urun.fiyat>5);
-// console.log(yazdir);
+// console.log(yazdir); doğru olan ilk değeri dönderir
 
 //******************* */
 
-//.find()  dizideki en az bir elemanın koşulu sağlayıp sağlamadığı ile ilgili True false döndürür.
+//.some()  dizideki en az bir elemanın koşulu sağlayıp sağlamadığı ile ilgili True false döndürür.
 const urunler = [
     { id: 1, name: "Kalem", fiyat: 8 },
     { id: 2, name: "defter", fiyat: 5 },

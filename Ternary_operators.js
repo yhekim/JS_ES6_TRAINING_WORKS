@@ -23,7 +23,7 @@ kopruDurumu === "açık" ?
 const sayi = 1;
 sayi ? console.log("değer doğru") : console.log("değer yanlış");
 
-// null , NaN, 0 ,"", undefined  bu değerler false diğerleri true dur
+// null , NaN, 0 ,"", undefined  bu değerler false; diğerleri true dur
 
 buyuzden
 degerArray = [];

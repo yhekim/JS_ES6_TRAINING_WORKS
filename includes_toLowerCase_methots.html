@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Array methods 
+        //.includes()
+
+        const isim = "mehmet";
+        console.log(isim.includes("met")) //true döner
+        console.log(isim.includes("MET")) //FALSE döner
+
+        const yeniIsim = isim.toLowerCase();
+        console.log(yeniIsim); //output:"mehmet";
+
+        //*************** */
+
+        const urunler = [{
+            id: 1,
+            name: "silgi",
+            fiyat: 8
+        }, {
+            id: 2,
+            name: "defter",
+            fiyat: 5
+        }, {
+            id: 3,
+            name: "Kalem",
+            fiyat: 7
+        }, {
+            id: 4,
+            name: "Kalemtraş",
+            fiyat: 9
+        }]
+
+        console.log(urunler.filter((urun) => urun.name.includes("lem")));
+        //burada filter  aşağıdaki diziyi döndürür 
+        // [
+        //     { id: 4, name: "Kalemtraş", fiyat: 9 },
+        //     { id: 3, name: "Kalem", fiyat: 7 }
+        // ]
+    </script>
+</body>
+
+</html>
